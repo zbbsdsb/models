@@ -159,3 +159,4 @@ def image_seg_to_tfexample(image_data, filename, height, width, seg_data):
       'image/segmentation/class/format': _bytes_list_feature(
           FLAGS.label_format),
   }))
+  
